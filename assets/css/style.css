@@ -1,0 +1,41 @@
+nav .inicio {
+    font-family: 'Pacifico', cursive;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+    background-image: url('../img/Camila_hero.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    position: relative; /* para contener elementos absolutos */
+    
+  }
+.about .work{
+    color: #373A3C;
+}
+.absoluta {
+      position: absolute;
+      z-index: 6;
+      bottom: 10%;
+      width: 100%;
+      padding-right: 15%;
+  }
+
+.carousel-indicators {
+    top: 50px;
+  }
+  
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 15%;
+  }
+.frases {
+    font-family: 'Oswald';
+  }
